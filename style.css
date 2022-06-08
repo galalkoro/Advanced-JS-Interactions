@@ -1,5 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body{
-    padding-bottom: 50px;
+   background-color: black;
+    
+}
+
+.sec{
+   /* position: fixed;*/
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    overscroll-behavior: none;
+}
+
+.slider{
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 1400px;
+    height: 100%;
+}
+
+.slider-inner{
+  /*  position: absolute;*/
+    top: 100%;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    position: relative;
+    width: 500px;
+    height: 100%;
+    overflow: hidden;
+   /* background-color: black;*/
+}
+
+.img{
+    position: absolute;
+    left: -200px;
+    width: 1000px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
 }
 
 .picture{
@@ -33,17 +86,18 @@ body{
     border: 1px solid grey;
     height: 350px;
 }
-
+/*
 .carouselContainer{
     background: royalblue;
     height: 400px;
 }
-
+*/
+/*
 .title{
     font-size: 1.5em;
     margin-top: 100px;
     margin-bottom: 20px;
-}
+}*/
 
 .lightMode{
     background: rgb(245, 245, 245);
